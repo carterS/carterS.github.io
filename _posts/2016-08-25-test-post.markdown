@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Hello World"
+date:   2016-08-25 17:01:43 +0530
+categories: helloworld
+author: "Carter"
+---
+
+Hello World
+
+{% highlight ruby %}
+def print_hello_world
+  puts "Hello World"
+end
+print_hello_world
+#=> prints 'Hello World' to STDOUT.
+{% endhighlight %}
+
+Markdown links are fun. Hello [Google][google].
+
+[google]: http://google.com
